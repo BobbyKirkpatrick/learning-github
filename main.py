@@ -2,6 +2,7 @@
 def test_function(x, y):
     add = x + y
     subtract = x - y
+    multiply = x * y
 
     return add, subtract
 
