@@ -8,7 +8,8 @@ test_config = {
 
 
 dev_config = {
-    'dev db': 'db name',
-    'dev table': 'table',
-    'dev user': 'user1'
+
+    'db': 'dev db name',
+    'table': 'dev table',
+    'user': 'dev user1'
 }
