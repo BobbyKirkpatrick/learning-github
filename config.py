@@ -2,5 +2,6 @@
 
 test_config = {
     'db': 'db name',
-    'table': 'table'
+    'table': 'table',
+    'user': 'user1'
 }
