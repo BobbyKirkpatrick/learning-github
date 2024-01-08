@@ -5,3 +5,10 @@ test_config = {
     'table': 'table',
     'user': 'user1'
 }
+
+
+dev_config = {
+    'db': 'dev db name',
+    'table': 'dev table',
+    'user': 'dev user1'
+}
