@@ -1,15 +1,18 @@
+import os
+from dotenv import load_dotenv
 
-
-test_config = {
-    'db': 'db name',
-    'table': 'table',
-    'user': 'user1'
-}
-
+load_dotenv()
 
 dev_config = {
 
-    'db': 'dev db name',
-    'table': 'dev table',
-    'user': 'dev user1'
+    'db': os.getenv("DATABASE"),
+    'table': os.getenv("TABLE"),
+    'user': os.getenv("USERNAME")
+}
+
+
+stage_config = {
+    'db': 'db name',
+    'table': 'table',
+    'user': 'user1'
 }
